@@ -27,6 +27,8 @@ Program to implement the linear regression using gradient descent.
 Developed by:     SURIYA M
 RegisterNumber:   212223110055
 */
+print("Name : SURIYA M")
+print("Register Number : 212223110055")
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
@@ -66,13 +68,14 @@ prediction=np.dot(np.append(1,new_Scaled),theta)
 prediction=prediction.reshape(-1,1)
 pre=scaler.inverse_transform(prediction)
 print(f"Predicted value: {pre}")
-print("Name: SURIYA M\nReg No: 212223110055")
+print("Name : SURIYA M")
+print("Register Number : 212223110055")
 
 ```
 
 ## Output:
 ### Dataset values
-![Screenshot 2025-04-28 141503](https://github.com/user-attachments/assets/0b5b19ca-cf54-4540-8692-d5a982e899f1)
+![image](https://github.com/user-attachments/assets/b77a3417-f471-43c8-8af6-0b18aeffbc46)
 
 ### X Values
 ![Screenshot 2025-04-28 141641](https://github.com/user-attachments/assets/530210ac-bafe-4216-8907-a5aa361132f3)
@@ -95,7 +98,7 @@ print("Name: SURIYA M\nReg No: 212223110055")
 ![Screenshot 2025-04-28 142230](https://github.com/user-attachments/assets/4e3f7c66-71fd-4de9-af0c-11989c72bbbb)
 
 ### Predicted Values
-![image](https://github.com/user-attachments/assets/54b02916-de39-45df-9d64-8b95854869dc)
+![image](https://github.com/user-attachments/assets/8517abe4-cc84-4a16-a485-1ca2c15e12f4)
 
 ## Result:
 
